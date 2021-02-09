@@ -20,11 +20,8 @@ public class MainActivity extends AppCompatActivity {
         double myMoney= 100;
         float myGrade= 90;
 
-
-
         //String.valueof(myMoney);
         display.setText("My name is "+firstname+" "+middleInitial+" "+lastname+"\nand my age is "+myAge+".\nI want my grade in TVL3 to be "+myGrade);
-
 
         boolean amISingle = true;
     }
