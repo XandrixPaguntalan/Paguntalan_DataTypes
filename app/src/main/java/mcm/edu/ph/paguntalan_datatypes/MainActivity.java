@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         TextView display;
         display = findViewById(R.id.displaytext);
         String firstname = "Xandrix Jill";
-        String lastname =" Paguntalan";
+        String lastname = "Paguntalan";
         char middleInitial = 'B';
         int myAge =  18;
         double myMoney= 100;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //String.valueof(myMoney);
-        display.setText("My name is "+firstname+" "+middleInitial+""+lastname+"\nand my age is "+myAge+".\nI want my grade in TVL3 to be "+myGrade);
+        display.setText("My name is "+firstname+" "+middleInitial+" "+lastname+"\nand my age is "+myAge+".\nI want my grade in TVL3 to be "+myGrade);
 
 
         boolean amISingle = true;
